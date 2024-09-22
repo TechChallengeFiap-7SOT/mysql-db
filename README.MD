@@ -25,6 +25,6 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 ├── main.tf               # Definição dos recursos principais (RDS, VPC, Subnets, Security Group)
 ├── variables.tf          # Definição das variáveis do projeto
 ├── outputs.tf            # Outputs para exibir informações após a execução
-├── terraform.tfvars      # Valores das variáveis -> copiar exemplo para utlizar (não deve ser commitado)
+├── terraform.tfvars      # Valores das variáveis -> copiar exemplo para utilizar (não deve ser commitado)
 ├── .gitignore            # Arquivos ignorados pelo Git
 └── README.md             # Este arquivo
