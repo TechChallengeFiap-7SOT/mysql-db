@@ -1,9 +1,7 @@
 name: Deploy MySQL - RDS
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 env:
   REGION_DEFAULT: "us-east-1"
