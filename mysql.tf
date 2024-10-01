@@ -9,7 +9,6 @@ resource "aws_db_instance" "mysql-db" {
   username           = "user"
   password           = "password"
 
-  vpc_security_group_ids = [aws_security_group.fiap-db-sg.id]
   skip_final_snapshot = true 
   publicly_accessible =  true
 
